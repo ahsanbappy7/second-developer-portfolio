@@ -3,3 +3,72 @@ body {
     font-size: 30px;
     margin: 0%;
 }
+
+
+.orange-colour {
+    color: orange;
+}
+
+.flexible-container {
+    display: flex;
+    padding-left: 120px;
+}
+
+.half-width img {
+    width: 400px;
+    padding: 50px;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.ex-c {
+    color: indigo;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.experience-item {
+
+    margin-right: 5px;
+    margin-left: 5px padding-left: 20px;
+    border-radius: 3%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+}
